@@ -54,6 +54,156 @@ dependencies = [
 ]
 
 [[package]]
+name = "anchor-attribute-access-control"
+version = "0.24.2"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
+dependencies = [
+ "anchor-syn",
+ "anyhow",
+ "proc-macro2",
+ "quote",
+ "regex",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "anchor-attribute-account"
+version = "0.24.2"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
+dependencies = [
+ "anchor-syn",
+ "anyhow",
+ "bs58 0.4.0",
+ "proc-macro2",
+ "quote",
+ "rustversion",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "anchor-attribute-constant"
+version = "0.24.2"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
+dependencies = [
+ "anchor-syn",
+ "proc-macro2",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "anchor-attribute-error"
+version = "0.24.2"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
+dependencies = [
+ "anchor-syn",
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "anchor-attribute-event"
+version = "0.24.2"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
+dependencies = [
+ "anchor-syn",
+ "anyhow",
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "anchor-attribute-interface"
+version = "0.24.2"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
+dependencies = [
+ "anchor-syn",
+ "anyhow",
+ "heck 0.3.3",
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "anchor-attribute-program"
+version = "0.24.2"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
+dependencies = [
+ "anchor-syn",
+ "anyhow",
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "anchor-attribute-state"
+version = "0.24.2"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
+dependencies = [
+ "anchor-syn",
+ "anyhow",
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "anchor-derive-accounts"
+version = "0.24.2"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
+dependencies = [
+ "anchor-syn",
+ "anyhow",
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "anchor-lang"
+version = "0.24.2"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
+dependencies = [
+ "anchor-attribute-access-control",
+ "anchor-attribute-account",
+ "anchor-attribute-constant",
+ "anchor-attribute-error",
+ "anchor-attribute-event",
+ "anchor-attribute-interface",
+ "anchor-attribute-program",
+ "anchor-attribute-state",
+ "anchor-derive-accounts",
+ "arrayref",
+ "base64 0.13.1",
+ "bincode",
+ "borsh 0.10.3",
+ "bytemuck",
+ "solana-program",
+ "thiserror",
+]
+
+[[package]]
+name = "anchor-syn"
+version = "0.24.2"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
+dependencies = [
+ "anyhow",
+ "bs58 0.3.1",
+ "heck 0.3.3",
+ "proc-macro2",
+ "proc-macro2-diagnostics",
+ "quote",
+ "serde",
+ "serde_json",
+ "sha2 0.9.9",
+ "syn 1.0.109",
+ "thiserror",
+]
+
+[[package]]
 name = "android-tzdata"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -275,6 +425,12 @@ checksum = "3441f0f7b02788e948e47f457ca01f1d7e6d92c693bc132c22b087d3141c03ff"
 
 [[package]]
 name = "base64"
+version = "0.13.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9e1b586273c5702936fe7b7d6896644d8be71e6314cfe09d3167c95f712589e8"
+
+[[package]]
+name = "base64"
 version = "0.21.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9d297deb1925b89f2ccc13d7635fa0714f12c87adce1c75356b39ca9b7178567"
@@ -430,6 +586,18 @@ dependencies = [
  "alloc-no-stdlib",
  "alloc-stdlib",
 ]
+
+[[package]]
+name = "bs58"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "476e9cd489f9e121e02ffa6014a8ef220ecb15c05ed23fc34cca13925dc283fb"
+
+[[package]]
+name = "bs58"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "771fe0050b883fcc3ea2359b1a96bcfbc090b7116eae7c3c512c7a083fdf23d3"
 
 [[package]]
 name = "bs58"
@@ -1157,6 +1325,15 @@ checksum = "e5274423e17b7c9fc20b6e7e208532f9b19825d82dfd615708b70edd83df41f1"
 
 [[package]]
 name = "heck"
+version = "0.3.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6d621efb26863f0e9924c6ac577e8275e5e6b77455db64ffa6c65c904e9e132c"
+dependencies = [
+ "unicode-segmentation",
+]
+
+[[package]]
+name = "heck"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "95505c38b4572b2d910cecb0281560f54b440a19336cbbcb27bf6ce6adc6f5a8"
@@ -1584,7 +1761,7 @@ dependencies = [
 name = "mollusk-svm-fuzz-fixture"
 version = "0.0.6"
 dependencies = [
- "bs58",
+ "bs58 0.5.1",
  "prost",
  "prost-build",
  "prost-types",
@@ -1924,6 +2101,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "proc-macro2-diagnostics"
+version = "0.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4bf29726d67464d49fa6224a1d07936a8c08bb3fba727c7493f6cf1616fdaada"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+ "version_check",
+ "yansi",
+]
+
+[[package]]
 name = "prost"
 version = "0.10.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1942,7 +2132,7 @@ dependencies = [
  "bytes",
  "cfg-if",
  "cmake",
- "heck",
+ "heck 0.4.1",
  "itertools 0.10.5",
  "lazy_static",
  "log",
@@ -2459,9 +2649,8 @@ dependencies = [
 
 [[package]]
 name = "solana-bpf-loader-program"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "58ac9c67b1651c35868323f551ada9aa468f0ff731afa0e07084b5af3ef35958"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "bincode",
  "byteorder",
@@ -2481,9 +2670,8 @@ dependencies = [
 
 [[package]]
 name = "solana-compute-budget"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b1a9d6e202f04a2f57b314ba3494a5230f9708247070393f782a754774b1fbb3"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "rustc_version",
  "solana-sdk",
@@ -2491,9 +2679,8 @@ dependencies = [
 
 [[package]]
 name = "solana-curve25519"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0aa9209adbba7662a0a6a79ab48b4d09a2cb23a3db3dd817818e1bc28da99a11"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "bytemuck",
  "bytemuck_derive",
@@ -2504,9 +2691,8 @@ dependencies = [
 
 [[package]]
 name = "solana-logger"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2ad3a2edfbecfd010c45b4fe34c472910392e273cf165a03e187cb09cf690b22"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "env_logger",
  "lazy_static",
@@ -2515,9 +2701,8 @@ dependencies = [
 
 [[package]]
 name = "solana-measure"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2d08a0175bfa4cb16889feeca9d4d5bc144a91cfbe19a3746f1823600a62684b"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "log",
  "solana-sdk",
@@ -2525,9 +2710,8 @@ dependencies = [
 
 [[package]]
 name = "solana-metrics"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d312fb471563f31fee1578ca8c51619458bddf25f36ad10388a2a1812ee27e25"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "crossbeam-channel",
  "gethostname",
@@ -2540,9 +2724,8 @@ dependencies = [
 
 [[package]]
 name = "solana-poseidon"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e84df7056e4c26cf6f4055b28b61bb28f70d6ee0a469ae6a7b2f062090911b1e"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "ark-bn254",
  "light-poseidon",
@@ -2551,9 +2734,8 @@ dependencies = [
 
 [[package]]
 name = "solana-program"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "51237f3618428e8b9dd1e5c3d89b8f44f00dbcb88a7ad577ebdfdfac51501c61"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "ark-bn254",
  "ark-ec",
@@ -2565,7 +2747,7 @@ dependencies = [
  "blake3",
  "borsh 0.10.3",
  "borsh 1.5.1",
- "bs58",
+ "bs58 0.5.1",
  "bv",
  "bytemuck",
  "bytemuck_derive",
@@ -2597,9 +2779,8 @@ dependencies = [
 
 [[package]]
 name = "solana-program-runtime"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f8d2c1801dc17b166db40968ef1ab30f71b319edcaa69efe8c29a66258baff52"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "base64 0.22.1",
  "bincode",
@@ -2626,14 +2807,15 @@ dependencies = [
 
 [[package]]
 name = "solana-sdk"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "da640d96314707ba69feb3c0b1c5fdefb418c5d5e684fe5a9a27b8daae8c18b5"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
+ "anchor-lang",
+ "base64 0.22.1",
  "bincode",
  "bitflags 2.6.0",
  "borsh 1.5.1",
- "bs58",
+ "bs58 0.5.1",
  "bytemuck",
  "bytemuck_derive",
  "byteorder",
@@ -2675,11 +2857,10 @@ dependencies = [
 
 [[package]]
 name = "solana-sdk-macro"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "45b6e930455ef68cf15e5a22a0e0c207e67c3d70978a565e0a64f568c8a24129"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
- "bs58",
+ "bs58 0.5.1",
  "proc-macro2",
  "quote",
  "rustversion",
@@ -2688,9 +2869,8 @@ dependencies = [
 
 [[package]]
 name = "solana-system-program"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "25bac1656c5771eb6bf68e58df67783d4099b76a95ab680ea2bf31d5518f1542"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "bincode",
  "log",
@@ -2703,9 +2883,8 @@ dependencies = [
 
 [[package]]
 name = "solana-type-overrides"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a4201087a2d944f1fe1a5531d612384a825378339b26c84df4681afb7b52018b"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "lazy_static",
  "rand 0.8.5",
@@ -2713,9 +2892,8 @@ dependencies = [
 
 [[package]]
 name = "solana-vote"
-version = "2.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7a72891adbea06048965dfd4e0f1897f113d03bafb9e81f895bbe560e0b3a5ec"
+version = "2.0.14"
+source = "git+https://github.com/VintaraTrading/jito-solana.git?rev=29a5c29f8f401a919759201b877ffc1e75cd54ac#29a5c29f8f401a919759201b877ffc1e75cd54ac"
 dependencies = [
  "itertools 0.12.1",
  "log",
@@ -3026,6 +3204,12 @@ checksum = "a56d1686db2308d901306f92a263857ef59ea39678a5458e7cb17f01415101f5"
 dependencies = [
  "tinyvec",
 ]
+
+[[package]]
+name = "unicode-segmentation"
+version = "1.12.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f6ccf251212114b54433ec949fd6a7841275f9ada20dddd2f29e9ceea4501493"
 
 [[package]]
 name = "unreachable"
@@ -3407,6 +3591,12 @@ dependencies = [
  "cfg-if",
  "windows-sys 0.48.0",
 ]
+
+[[package]]
+name = "yansi"
+version = "0.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "09041cd90cf85f7f8b2df60c646f853b7f535ce68f85244eb6731cf89fa498ec"
 
 [[package]]
 name = "zerocopy"
